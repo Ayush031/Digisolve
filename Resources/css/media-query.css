@@ -1,0 +1,183 @@
+/* for screens less than 1200px  */
+
+@media only screen and (max-width:1199x) {
+
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    .about-para {
+        margin: bottom 20px;
+    }
+
+    .section-heading {
+        margin-top: 90px;
+    }
+
+    .big-icon {
+        margin-bottom: 15px;
+    }
+}
+
+/* for screens less than 1024px */
+@media only screen and (max-width:1023px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .about-box {
+        margin-top: 60px;
+    }
+
+    .about-box:first-child {
+        padding: 0px;
+        padding-left: 5%;
+    }
+
+    .about-img {
+        padding: 5%;
+    }
+
+    .about-para {
+        line-height: 1.4;
+    }
+
+    .about-para-1 {
+        margin-bottom: 30px;
+    }
+
+
+    .section-heading,
+    .parnter-heading {
+        margin-top: 75px;
+    }
+
+    .plan-heading {
+        padding: 75px 0px 35px 0px;
+    }
+
+    .testimonial-heading {
+        padding: 70px 0px 35px 0px;
+        margin: 0px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+/* for screens less than 768px */
+@media only screen and (max-width:767px) {
+
+    .plan-heading {
+        padding: 60px 0px 35px 0px;
+    }
+
+    .section-heading {
+        margin-top: 60px;
+    }
+
+    .section-subheading::after {
+        margin: 15px auto 0px auto;
+    }
+
+
+    .plan-name {
+        padding: 10px 0px 17px 12px;
+    }
+
+    .plan-usp {
+        margin-top: 20px;
+        padding: 0px;
+        padding-left: 17px;
+    }
+
+    .plan-usp li:last-child {
+        padding-bottom: 20px;
+    }
+
+    .plan-btn {
+        padding: 35px 0px 30px 50px;
+    }
+
+    .foot-nav li {
+        margin-right: 13px;
+    }
+}
+
+/* for screens less than 480px */
+@media only screen and (max-width:480px) {
+    
+    .logo {
+        height: 100px;
+    }
+    
+.main-nav li {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+    
+    .about-img {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .about-box:last-child {
+
+        text-align: center;
+    }
+
+
+    .work-portfolio li {
+        width: 50%;
+    }
+
+    .span_1_of_4 {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .services-section div.row:last-child {
+        padding-left: 9%;
+    }
+
+    .span_1_of_3 {
+        padding: 0 5%;
+        margin-bottom: 9px;
+    }
+
+    .plan-box {
+        margin-top: 20px;
+    }
+
+
+    .social-links {
+        float: none;
+    }
+
+    footer div.row {
+        text-align: center;
+    }
+
+    .foot-nav:first-child {
+        margin-bottom: 5px;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+
+    .main-nav li {
+
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+
+}
