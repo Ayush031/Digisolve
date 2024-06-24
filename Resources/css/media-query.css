@@ -1,183 +1,141 @@
-/* for screens less than 1200px  */
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1200px) {
+	html,
+	body {
+		font-size:14px;
+	}
 
-@media only screen and (max-width:1199x) {
+	.about-para {
+		margin-bottom:20px;
+	}
 
-    html,
-    body {
-        font-size: 14px;
-    }
+	.section-heading,
+	.testimonial-heading,
+	.packages-heading,
+	.contact-heading {
+		margin-top:90px;
+	}
 
-    .about-para {
-        margin: bottom 20px;
-    }
-
-    .section-heading {
-        margin-top: 90px;
-    }
-
-    .big-icon {
-        margin-bottom: 15px;
-    }
 }
 
-/* for screens less than 1024px */
+/* Smaller tablets to larger tablet screens*/
 @media only screen and (max-width:1023px) {
+	html,
+	body {
+		font-size:12px;
+	}
 
-    html,
-    body {
-        font-size: 12px;
-    }
+	.row {
+		padding:0 2%;
+	}
 
-    .row {
-        padding: 0 2%;
-    }
+	.about-box {
+		margin-top:60px;
+	}
 
-    .about-box {
-        margin-top: 60px;
-    }
+	.about-box:first-child {
+		padding:0;
+		padding-left:5%;
+	}
 
-    .about-box:first-child {
-        padding: 0px;
-        padding-left: 5%;
-    }
+	.laptop-image {
+		padding-right:5%;
+	}
 
-    .about-img {
-        padding: 5%;
-    }
+	.package-box {
+		width:100%;
+	}
 
-    .about-para {
-        line-height: 1.4;
-    }
+	.package-heading {
+		margin-bottom:25px;
+	}
 
-    .about-para-1 {
-        margin-bottom: 30px;
-    }
+	footer {
+		padding:30px;
+	}
 
-
-    .section-heading,
-    .parnter-heading {
-        margin-top: 75px;
-    }
-
-    .plan-heading {
-        padding: 75px 0px 35px 0px;
-    }
-
-    .testimonial-heading {
-        padding: 70px 0px 35px 0px;
-        margin: 0px;
-    }
-
-    footer {
-        padding: 30px;
-    }
+	footer p {
+		margin-top:20px;
+		line-height:1.3;
+	}
 }
 
-/* for screens less than 768px */
+/* larger phones  to smaller tablet screens*/
 @media only screen and (max-width:767px) {
+	html,
+	body {
+		font-size:10px;
+	}
 
-    .plan-heading {
-        padding: 60px 0px 35px 0px;
-    }
+	.header-text-box {
+		margin-bottom:50px;
+	}
 
-    .section-heading {
-        margin-top: 60px;
-    }
+	.about-heading {
+		margin-bottom:20px;
+	}
 
-    .section-subheading::after {
-        margin: 15px auto 0px auto;
-    }
+	.section-heading,
+	.testimonial-heading,
+	.packages-heading,
+	.contact-heading {
+		margin-top:60px;
+	}
 
+	.section-heading {
+		margin-bottom:10px;
+	}
 
-    .plan-name {
-        padding: 10px 0px 17px 12px;
-    }
+	.section-sub-heading:after {
+		margin:15px auto 0 auto;
+	}
 
-    .plan-usp {
-        margin-top: 20px;
-        padding: 0px;
-        padding-left: 17px;
-    }
-
-    .plan-usp li:last-child {
-        padding-bottom: 20px;
-    }
-
-    .plan-btn {
-        padding: 35px 0px 30px 50px;
-    }
-
-    .foot-nav li {
-        margin-right: 13px;
-    }
+	.testimonial-heading {
+		margin-bottom:10px;
+	}
 }
 
-/* for screens less than 480px */
+/* smaller to larger mobile phones*/
 @media only screen and (max-width:480px) {
-    
-    .logo {
-        height: 100px;
-    }
-    
-.main-nav li {
-    margin-right: 30px;
-    margin-left: 0px;
-}
-    
-    .about-img {
-        padding: 0;
-        margin: 0 auto;
-    }
+	.laptop-image {
+		padding:0;
+		margin:0 auto;
+	}
 
-    .about-box:last-child {
+	.about-box:last-child {
+		text-align:center;
+	}
 
-        text-align: center;
-    }
+	.about-box:first-child {
+		text-align:center;
+	}
 
+	.span_1_of_4 {
+		width:45%;
+		margin-bottom:20px;
+	}
 
-    .work-portfolio li {
-        width: 50%;
-    }
+	.span_1_of_3 {
+		padding:0 10%;
+		margin-bottom:5px;
+	}
 
-    .span_1_of_4 {
-        width: 45%;
-        margin-bottom: 20px;
-    }
+	.contact-form {
+		width:100%;
+	}
 
-    .services-section div.row:last-child {
-        padding-left: 9%;
-    }
+	.contact-label {
+		padding-left:0;
+	}
 
-    .span_1_of_3 {
-        padding: 0 5%;
-        margin-bottom: 9px;
-    }
+	.footer-nav,
+	.social-links  {
+		float:none;
+		text-align:center;
+		margin-bottom:10px;
+	}
 
-    .plan-box {
-        margin-top: 20px;
-    }
-
-
-    .social-links {
-        float: none;
-    }
-
-    footer div.row {
-        text-align: center;
-    }
-
-    .foot-nav:first-child {
-        margin-bottom: 5px;
-    }
-}
-
-
-@media only screen and (max-width:320px) {
-
-    .main-nav li {
-
-        margin-right: 15px;
-        margin-left: 0px;
-    }
-
+	.work-portfolio li {
+		width:50%;
+	}
 }
